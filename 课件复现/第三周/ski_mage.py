@@ -47,13 +47,13 @@ img = io.imread('./whiteD5.png')
 # plt.show()
 
 # 改变图像亮度
-from skimage import exposure
-imgBright = exposure.adjust_gamma(img, gamma=0.5, gain=1)
-imgDark = exposure.adjust_gamma(img, gamma=1.5, gain=1)
-plt.subplot(1, 3, 1)
-io.imshow(img)
-plt.subplot(1, 3, 2)
-io.imshow(imgBright)
-plt.subplot(1, 3, 3)
-io.imshow(imgDark)
-plt.show()
+# from skimage import exposure
+# imgBright = exposure.adjust_gamma(img, gamma=0.5, gain=1)
+# imgDark = exposure.adjust_gamma(img, gamma=1.5, gain=1)
+# plt.subplot(1, 3, 1)
+# io.imshow(img)
+# plt.subplot(1, 3, 2)
+# io.imshow(imgBright)
+# plt.subplot(1, 3, 3)
+# io.imshow(imgDark)
+# plt.show()
